@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Vega charger management system]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="classes" name="Google test in Chrome browser(failed)" verbose="0">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="appURL" value="https://www.google.com/"/>
+    <classes>
+      <class name="com.vega.testcases.SearchEngineTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="BrowserStart"/>
+          <include name="setUp"/>
+          <include name="search_KeyWord"/>
+          <include name="closeBrowser"/>
+          <include name="screenOnSuccess"/>
+        </methods>
+      </class> <!-- com.vega.testcases.SearchEngineTest -->
+    </classes>
+  </test> <!-- Google test in Chrome browser(failed) -->
+</suite> <!-- Failed suite [Vega charger management system] -->

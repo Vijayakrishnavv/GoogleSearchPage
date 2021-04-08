@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 17.98 s <<< FAILURE! - in TestSuite
+com.vega.testcases.SearchEngineTest.search_KeyWord  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.vega.testcases.SearchEngineTest.search_KeyWord(SearchEngineTest.java:53)
+

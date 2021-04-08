@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Vega charger management system" parallel="classes">
+
+	<test thread-count="1" name="Google test in Chrome browser" parallel="classes" verbose="5">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="appURL" value="https://www.google.com/" />
+		<classes>
+			<class name="com.vega.testcases.SearchEngineTest" />
+		</classes>
+	</test>
+	
+<!-- 	<test thread-count="1" name="Google test in Firefox browser" parallel="classes" verbose="5">
+		<parameter name="browser" value="Firefox" />
+		<parameter name="appURL" value="https://www.google.com/" />
+		<classes>
+			<class name="com.vega.testcases.SearchEngineTest" />
+		</classes>
+	</test> -->
+
+
+</suite> <!-- Suite -->
